@@ -10,7 +10,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann:    <http://purl.org/vocab/vann/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix csvw: <http://www.w3.org/ns/csvw#> .
 
 @base <https://w3id.org/equipment/public/ontology> .
@@ -30,16 +30,16 @@
     dcterms:title "Custom ontology for describing battery production equipment"@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     vann:preferredNamespacePrefix "coater" ;
-    vann:preferredNamespaceUri    <https://w3id.org/equipment/public/ontology#> ;
-    dcterms:created   "2025-10-23"^^xsd:date ;
-    dcterms:issued   "2025-10-23"^^xsd:date ;
+    vann:preferredNamespaceUri <https://w3id.org/equipment/public/ontology#> ;
+    dcterms:created "2025-10-23"^^xsd:date ;
+    dcterms:issued "2025-10-23"^^xsd:date ;
     dcterms:modified "2025-11-21"^^xsd:date ;
     dcterms:publisher "SINTEF" ;
-    dcterms:contributor "SINTEF"@en ,"SINTEF Industry"@en ;
+    dcterms:contributor "SINTEF"@en , "SINTEF Industry"@en ;
     dcterms:creator "Sridevi Krishnamurthi (SINTEF)"@en ,
                     "Simon Clark (SINTEF)"@en ,
                     "Sylvain Gouttebroze (SINTEF)"@en ;
-    owl:versionIRI  <https://w3id.org/equipment/public/ontology/1.0.0> ;
+    owl:versionIRI <https://w3id.org/equipment/public/ontology/1.0.0> ;
     owl:versionInfo "1.0.0"@en .
 
 #-----------------------------------
