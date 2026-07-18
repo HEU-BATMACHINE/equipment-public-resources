@@ -23,7 +23,7 @@
     owl:imports <https://w3id.org/emmo/1.0.0-rc1> ,
                 <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo-inferred> ;
     owl:imports <https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/disciplines/units/prefixedsiunits.ttl> ;
-    owl.imports <https://raw.githubusercontent.com/emmo-repo/EMMO/01f1f92846b2c2e355c2c540643e22e53ae69bec/disciplines/units/specialunits.ttl> ;
+    owl:imports <https://raw.githubusercontent.com/emmo-repo/EMMO/01f1f92846b2c2e355c2c540643e22e53ae69bec/disciplines/units/specialunits.ttl> ;
     owl:imports <https://w3id.org/emmo/1.0.0-beta7/disciplines/manufacturing> ;
     rdfs:label "Custom ontology for battery production equipment" ;
     rdfs:comment "An extension of the EMMO ontology defining the equipment and processes for the battery production equipment." ;
