@@ -377,7 +377,7 @@ coater:hasCoaterHeadHorizontalPositionData rdf:type owl:ObjectProperty ;
 coater:hasWebSpeedData rdf:type owl:ObjectProperty ;
    rdfs:subPropertyOf emmo:EMMO_fd689787_31b0_41cf_bf03_0d69af76469d ;
    rdfs:domain chameo:RawData ;  
-   rdfs:range emmo:Speed ;
+   rdfs:range emmo:EMMO_81369540_1b0e_471b_9bae_6801af22800e ;
    rdfs:label "hasWebSpeedData" ;
    skos:prefLabel "hasWebSpeedData"@en ;
    rdfs:comment "Web speed for the coating machine." .
@@ -474,7 +474,7 @@ coater:WidthQuantity a owl:Class ;
     ] .
 
 coater:SpeedQuantity a owl:Class ;
-  rdfs:subClassOf emmo:Speed ;
+  rdfs:subClassOf emmo:EMMO_81369540_1b0e_471b_9bae_6801af22800e ;
   rdfs:subClassOf
     # exactly 1 numerical value (datatype decimal)
     [ a owl:Restriction ;
